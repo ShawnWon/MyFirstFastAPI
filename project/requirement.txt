@@ -1,0 +1,7 @@
+#install below packages
+install fastapi uvicorn 
+install pymongo
+install dnspython
+
+#then run below to start api:
+uvicorn project.main:app --reload
